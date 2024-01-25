@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Using a for loop to display directory content in a list format
+for i in *
+do
+    echo "$i" | cut -f 2- -d '-'
+done
